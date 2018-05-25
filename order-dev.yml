@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: order
+  datasource:
+    password: root
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+  rabbitmq:
+      host: 127.0.0.1
+      port: 5672
+      username: dengpeng
+      password: 123456
+  redis:
+    port: 6379
+    host: 127.0.0.1
+  jpa:
+    database: mysql
+    show-sql: true
+env:
+    dev1
